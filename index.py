@@ -106,18 +106,37 @@ vowels = set('aeiou')
 
 #set method
 #add
-fruit.add('papaya')
-fruit.update({'watermelon', 'pawpaw'})
-# fruit.remove('mango')
-fruit.discard('mango')
-fruit.pop()
-fruit.clear()
-print(fruit)
+# fruit.add('papaya')
+# fruit.update({'watermelon', 'pawpaw'})
+# # fruit.remove('mango')
+# fruit.discard('mango')
+# fruit.pop()
+# fruit.clear()
+# print(fruit)
 
 
 # fruits = {'apple', 'orange', 'grape'}
 # vowels = set('fruits')
 # print("u" in vowels)
+
+
+#set operations
+# set1 = {1, 2, 3}
+# set2 = {3,4,5}
+
+# #union of the set
+# union_set = set1 | set2
+# print(union_set)
+
+
+# #intersection of the set
+# intersection_set = set1 & set2
+# print(intersection_set)
+
+# #difference of the set
+# difference_set = set1 - set2
+# print(difference_set)
+
 
 # from collections import deque
 
@@ -142,6 +161,71 @@ print(fruit)
 # # Measure the execution time
 # execution_time = timeit.timeit('firstElement([1, 2, 3, 4, 5])', globals=globals(), number=1000)
 # print(f"Execution time: {execution_time}")
+
+
+#dictionary
+#it is an unordered collection of data value. It is always in key and value.
+# car = {
+#     "brand" : "Toyota",
+#     "year": 2015
+# }
+
+# #using the get method
+# print(car.get('year'))
+
+# #the indexing method
+# print(car['brand'])
+
+#modifying a dictionary
+
+# car['brand'] = 'Benz'
+# car['color' ] = 'Blue'
+# print(car)
+
+
+#nested dictionaries
+studentsMarks = {
+    "Ola": {
+        'Maths': 70,
+        "English": 80,
+    },
+    "Shola":{
+        "Maths": 74,
+        "English": 50
+    }
+}
+
+# print(studentsMarks)
+# print(studentsMarks.get('Ola'))
+
+#adding key and value to a nested dictionary
+# studentsMarks['Shade'] = {}
+# studentsMarks['Shade']['Maths'] = 80
+# studentsMarks['Shade']['English'] = 90
+
+# # print(studentsMarks['Shade'])
+
+#how to remove element of a dictionary
+# studentsMarks.pop('Ola')
+# print(studentsMarks)
+
+
+#stacks and queues
+
+letters = []
+letters.append('a')
+letters.append('b')
+letters.append('c')
+letters.append('d')
+
+
+letters.pop()
+print(letters)
+
+
+
+
+
 
 
 
