@@ -184,16 +184,16 @@ vowels = set('aeiou')
 
 
 #nested dictionaries
-studentsMarks = {
-    "Ola": {
-        'Maths': 70,
-        "English": 80,
-    },
-    "Shola":{
-        "Maths": 74,
-        "English": 50
-    }
-}
+# studentsMarks = {
+#     "Ola": {
+#         'Maths': 70,
+#         "English": 80,
+#     },
+#     "Shola":{
+#         "Maths": 74,
+#         "English": 50
+#     }
+# }
 
 # print(studentsMarks)
 # print(studentsMarks.get('Ola'))
@@ -213,14 +213,59 @@ studentsMarks = {
 #stacks and queues
 
 letters = []
-letters.append('a')
-letters.append('b')
-letters.append('c')
-letters.append('d')
+# letters.append('a')
+# letters.append('b')
+# letters.append('c')
+# letters.append('d')
 
 
-letters.pop()
-print(letters)
+# letters.pop()
+# print(letters)
+
+
+#stack using the deque library
+# Dequeue is a short form of double ended queue
+
+# from collections import deque
+# numbers = deque()
+
+# numbers.append(23)
+# numbers.append(24)
+# numbers.append(50)
+
+# numbers.pop()
+# print(numbers)
+
+
+#queues using the deque library
+
+# from collections import deque
+# names = deque()
+# names.append('Taiwo')
+# names.append('Kehinde')
+# names.append('Ola')
+
+# names.popleft()
+# print(names)
+
+#space and time complexity
+
+
+#constant time complexity
+# def firstElement(listSample):
+#     print(listSample[0])
+
+
+# firstElement([1, 2, 3, 4, 5])
+
+#linear time complexity
+# using the for-in loop
+
+def firstElement(listSample):
+    for item in listSample:
+        print(item * 2)
+    
+firstElement([1, 2, 3, 4, 5])
 
 
 
