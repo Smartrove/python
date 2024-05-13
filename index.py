@@ -256,16 +256,69 @@ letters = []
 #     print(listSample[0])
 
 
-# firstElement([1, 2, 3, 4, 5])
+# firstElement([1, 2, 3, 4, 5]) # 0(1)
 
 #linear time complexity
 # using the for-in loop
 
-def firstElement(listSample):
-    for item in listSample:
-        print(item * 2)
+# def firstElement(listSample):
+#     for item in listSample:
+#         print(item * 2)
     
-firstElement([1, 2, 3, 4, 5])
+# firstElement([1, 2, 3, 4, 5])  # 0(n)
+
+# x = 3
+
+# if(x == 0):
+#     print(x, " is equal to zero")
+# elif(x == 1):
+#     print(x, " is equal to one")
+# elif(x > 2): 
+#     print(x, " is greater than two")
+# else: 
+#     print(x, " is not equal to zero")
+
+
+    #write a code that analyzes the performances of students in the department of Software Engineering. The total marks for Javascript is 100marks, the pass mark is 50marks, the excellent mark is 80marks. Prompt for their mark and tell them their results.
+
+
+#loop
+# a = [2, 3, 4, 5, 6]
+
+
+# #for loop syntax
+
+# for i in a:
+#     print(i * 2)
+
+
+# number = [2, 6, 5, 8, 3]
+
+# for i in number:
+#     if(i % 2  != 0):   #if(i % 2 != 0)
+#         print(i, "not divisible by 2") 
+
+
+        #assignment
+        #1. given a list with elements, return  the  largest element in the list.
+
+#Test data: const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45]
+
+
+#while loop
+
+x = 1
+while x <= 5:
+    print (x)
+    x = x + 1
+
+else:
+    print (x, "is no longer less than 5")
+
+
+
+
+
 
 
 
