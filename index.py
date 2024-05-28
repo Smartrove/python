@@ -304,16 +304,118 @@ letters = []
 
 #Test data: const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45]
 
+#2. using python function write a program that returns the multiples of 3 and 5 between 0 and 100;
+
+
+#3
+#Mark and John are trying to compare their BMI(body mass index) which is calculated using the formula  BMI = mass/h2(height * height).
+#1. store Mark's and John's mass and height in variables.
+#2. calculate both their BMIs using the formula.
+#3. write a code that check if Mark's BMI is greater than John's BMI using python function.
+
+#TEST DATA
+#1. Marks mass 78kg, height is 1.69m tall
+#Johns mass 92kg, height is 1.95m tall
+
+#2. Marks mass 95kg, height is 1.88m tall
+#Johns mass 85kg, height is 1.76m tall
+
 
 #while loop
 
-x = 1
-while x <= 5:
-    print (x)
-    x = x + 1
+# x = 1
+# while x <= 5:
+#     print (x)
+#     x = x + 1
 
-else:
-    print (x, "is no longer less than 5")
+# else:
+#     print (x, "is no longer less than 5")
+
+#function in python
+#in-built functions in python
+# abs(11)
+# abs(-12)
+
+# x = dict(sur_name='Ola', age= 15)
+# print(x)
+
+# name = input("Input name:")
+
+
+# def addNumbers():
+#     a = 2
+#     b = 3
+#     print(a + b)
+# addNumbers()
+
+
+#parameters, arguments;
+
+# def showParameter(a, b, c):  #parameters
+#     print(a + b + c)
+# showParameter(1, 2, 3) #arguments
+
+
+# def getNumber(a):
+#     for i in a:
+#      print(i * 2)
+# getNumber([2,3,4,5,6])
+
+# def checkCondition(x):
+#     if(x > 10):
+#         print(x, ": greater than 10")
+#     else:
+#         print(x, ": less than 10")
+# checkCondition(50)
+
+#OOP object oriented programming
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+    
+# p1 = Person("Bola", 25)
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def showClassName(self):
+#         print(self.name)
+# # p1 = Person("Bola", 25)
+# # p1.display()
+
+
+# class Student(Person):
+#     def __init__(self, name, age):
+#         super().__init__(name, age)
+
+# s1 = Student("Shola", 15)
+# # print(s1.name)
+# s1.showClassName()
+# p1.name = "Shade"
+# print(p1.name)
+# print(p1.age)
+
+import pandas as pd
+
+#load csv in python....
+employeeData = pd.read_csv('employee.csv')
+
+
+# print(employeeData.select_dtypes("object"))
+print(employeeData["MonthlyIncome"].max())
+print(employeeData["MonthlyIncome"].min())
+print(employeeData["MonthlyIncome"].mean())
+
+
+
+
+
+
+
+
+
 
 
 
